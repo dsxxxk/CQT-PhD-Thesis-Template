@@ -2,6 +2,7 @@
 % SPhdThesis v1.0
 % By Saurabh Garg (saurabhgarg@mysoc.net)
 % Version 1.0 released 11.06.2013
+% Modified by Jinge Bao to fit CQT requirements. Mar. 11. 2024
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{NUS_Thesis}[2024/03/06 v2.0 SPhdThesis class]
