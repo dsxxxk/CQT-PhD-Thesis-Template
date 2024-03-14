@@ -1,0 +1,30 @@
+\documentclass{NUS_Thesis}
+
+% PDF and title properties.
+\SgSetTitle{Thesis Title}
+\SgSetAuthor{Mame}
+\SgSetAuthorDegrees{List your previous degrees here}
+\SgSetYear{2024}
+\SgSetDegree{Doctor of Philosophy}
+\SgSetDepartment{Department}
+\SgSetUniversity{National University of Singapore}
+\SgSetDeclarationDate{March 2024}
+\SgSetAdvisor{Advisor's Name}
+\SgSetExaminer{Examiner 1\\ Examiner 2\\ Examiner 3}
+
+% The document.
+\begin{document}
+	\begin{frontmatter}
+		\SgAddTitle%
+		\SgAddDeclaration%
+		\input{acknowledgments}%
+		\input{abstract}%
+		\SgAddToc%  Table of contents.
+		\SgAddLof%  List of figures.
+		\SgAddLot%  List of tables.
+		\SgAddLoa%  List of algorithms.
+	\end{frontmatter}
+   
+	\input{chapter1}
+	\SgIncludeBib{biblio}
+\end{document}
